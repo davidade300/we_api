@@ -1,0 +1,15 @@
+[project]
+name = "django-ninja"
+version = "0.1.0"
+description = ""
+authors = [{ name = "davidade300", email = "iaderinho@icloud.com" }]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["fastapi[standard] (>=0.115.11,<0.116.0)"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
